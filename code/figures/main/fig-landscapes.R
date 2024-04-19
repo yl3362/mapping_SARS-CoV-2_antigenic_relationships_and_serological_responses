@@ -1,4 +1,6 @@
-
+if (!requireNamespace("devtools", quietly = TRUE))
+  install.packages("devtools")
+devtools::install_github("shwilks/ablandscapes")
 # Setup workspace
 rm(list = ls())
 library(tidyverse)
